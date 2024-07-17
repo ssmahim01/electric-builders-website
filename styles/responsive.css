@@ -1,0 +1,38 @@
+@media screen and (max-width:800px){
+    .navbar-main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-main>div{
+        margin-top:1.2rem;
+    }
+
+    .fifty-off{
+        left:20%;
+    }
+
+}
+
+@media screen and (max-width:500px){
+    .nav-menu-icon{
+        display:block;
+        margin-bottom:1.3rem;
+    }
+    
+    .nav-btn-container{
+        display:none;
+    }
+
+    .navbar-main{
+        flex-direction: row;
+    }
+
+    .banner-main{
+        flex-direction:column;
+    }
+
+    .banner-childs{
+       width:100%;
+    }
+}
